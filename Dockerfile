@@ -1,5 +1,3 @@
-RUN apt-get update && apt-get install -y git
-
 FROM golang:1.10.4-alpine
 
 ADD . /go/src/app
